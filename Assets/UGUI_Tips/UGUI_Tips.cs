@@ -130,7 +130,7 @@ public class UGUI_Tips : MonoBehaviour
             #endregion
         }
 
-        Debug.Log($"width: {maxRectWidth}, textSize: {textSize}, rtText: {rtText.rect}, y: {rtText.position.y}");
+        DLog.Log($"width: {maxRectWidth}, textSize: {textSize}, rtText: {rtText.rect}, y: {rtText.position.y}");
     }
 
     public void OnRefreshClicked()
